@@ -3,17 +3,18 @@ This project leverages the power of the GPT-2 model, a transformer-based languag
 Installing Libraries
 First, ensure that the necessary libraries are installed. The libraries required for this project include transformers and torch.
 
-Importing Libraries
+Importing Libraries: 
 Importing the necessary libraries like torch along with GPT2LMHeadModel, GPT2Tokenizerand modules of transformers.
 Importing warnings library to suppress warnings for a cleaner output.
 Loading Pre-trained Model and Tokenizer
 Load the pre-trained GPT-2 model and tokenizer. The GPT-2 model is a powerful language model capable of generating coherent text.
 
-Setting up Model and Tokenizer
+Setting up Model and Tokenizer: 
 Set the model to evaluation mode to ensure it is not trained further.
 Configure the tokenizer's pad token to match the model's requirements.
-Generating Text
+
+Generating Text: 
 Define a function to generate text based on a given prompt. The function encodes the prompt, generates text using the model, and decodes the output to return the generated text. Prompt the user for input and generate text based on the given prompt. The generated text is then printed to the console.
 
-Conclusion
+Conclusion: 
 This project demonstrates the use of the GPT-2 model for text generation. By providing a prompt, the model can generate coherent and contextually relevant text, making it a valuable tool for various NLP applications.
